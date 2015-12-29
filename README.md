@@ -4,9 +4,8 @@
 
 Initial user information.
 
-`git config --global user.email "you@example.com"`
-
-`git config --global user.name "Your Name"`
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
 
 
 Solarized colorscheme fix. Prevents split panes from opening with git commit.
@@ -18,6 +17,6 @@ Solarized colorscheme fix. Prevents split panes from opening with git commit.
 
 Add to the `~/.ssh/config` file to specify which private key to use for a host.
 
-  host github.com
-    HostName github.com
-    IdentityFile ~/.ssh/github
+    host github.com
+      HostName github.com
+      IdentityFile ~/.ssh/github
